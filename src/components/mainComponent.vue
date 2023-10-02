@@ -17,7 +17,7 @@
 
 <style>
 .mainComponent {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@
 }
 
 .mainComponent__galery {
-    height: 100vh;
+    height: 100%;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +55,7 @@
 .mainComponent__galery_card-details {
     display: flex;
     flex-direction: column;
-    margin: 20px 0px 10px 15px;
+    margin: 20px 0px 10px 5px;
     letter-spacing: 1px;
 
 }

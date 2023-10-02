@@ -51,6 +51,7 @@
     width: 100%;
     height: 70vh;
     background-image: url(../assets/img/bg.jpg);
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,16 +69,14 @@
 }
 
 .filtersComponent__containerFilters_fish {
-    height: auto;
-    width: 70vh;
+    width: 70%;
     text-align: left;
     padding: 10px;
     margin-left: 10px;
 }
 
 .filtersComponent__containerFilters_basins {
-    height: auto;
-    width: 70vh;
+    width: 70%;
     text-align: left;
     padding: 10px;
     margin-left: 10px;
@@ -89,8 +88,8 @@ span {
 }
 
 input {
-    height: 4vh;
-    width:40vh;
+    height: 50%;
+    width:80%;
     background-color: inherit;
     border: solid 1px;
     display: block;
