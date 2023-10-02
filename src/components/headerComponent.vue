@@ -17,7 +17,7 @@
               ᐁ
             </button>
             <div v-if="isOpenDropdown" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Опция 1 Рыб</a>
+              <a class="dropdown-item" href="#">Опция 1 Пользователя</a>
               <a class="dropdown-item" href="#">Опция 2</a>
               <a class="dropdown-item" href="#">Опция 3</a>
             </div>
@@ -108,7 +108,7 @@ export default {
   position: absolute;
   width: fit-content;
   height: auto;
-  padding: 20px;
+  padding: 10px;
   flex-direction: column;
   right: 40%;
   background-color: #ffffff;
@@ -167,8 +167,7 @@ export default {
   height: auto;
   padding: 40px;
   flex-direction: column;
-  right: 0;
-  align-self: flex-end;
+  right: -48%;
   top: 100%;
   background-color: #ffffff;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.10);

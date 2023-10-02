@@ -63,10 +63,13 @@
 .mainComponent__galery_card-details img {
     height: 20px;
     width: 20px;
-    padding: 0px 10px 20px 0px;
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 10px;
+    opacity: 0.5;
+}
+.mainComponent__galery_card-details img:hover {
+    opacity: 1;
 }
 .mainComponent__galery_card-details h3 {
     color: var(--Black, #2F2F2F);

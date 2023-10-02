@@ -74,7 +74,6 @@
     padding: 10px;
     margin-left: 10px;
 }
-
 .filtersComponent__containerFilters_basins {
     width: 70%;
     text-align: left;
